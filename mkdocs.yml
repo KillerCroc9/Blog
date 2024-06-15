@@ -1,0 +1,65 @@
+site_name: Unreal Insights by Abdul
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: blue
+      accent: purple
+plugins:
+  - search
+
+   
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/KillerCroc9
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/abdul-muqeet-765283207/
+    - icon: material/email
+      link: mailto:a.muqeet.dev@gmail.com
+copyright: |
+  &copy; 2024 <h>Abdul Muqeet</h>
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - INTRODUCTION: index.md
+  - Projects:
+      - PIXEL READING: pixelreading.md
+
