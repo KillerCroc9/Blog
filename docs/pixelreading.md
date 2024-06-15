@@ -129,7 +129,7 @@ Texture compression in Unreal Engine can significantly affect image quality and 
 
 ###Image Compressed
 ![Pixel Data Example](Images\Back.jpg) ![Pixel Data Example](Images\Compressed.png) 
-
+![alt text](image.png)
 ###Image Uncompressed
 ![Pixel Data Example](Images\Back.jpg) ![Pixel Data Example](Images\Uncompressed.png) 
 
