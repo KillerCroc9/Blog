@@ -26,6 +26,7 @@ theme:
         name: Switch to light mode
       primary: blue
       accent: purple
+      default: true  # This line sets the default scheme to slate (night mode)
 plugins:
   - search
 
