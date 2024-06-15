@@ -128,10 +128,9 @@ Texture compression in Unreal Engine can significantly affect image quality and 
 
 
 ###Image Compressed
-![Pixel Data Example](Images\Back.jpg) ![Pixel Data Example](Images\Compressed.png) 
-![alt text](image.png)
+![alt text](image.png)![alt text](image-1.png)
 ###Image Uncompressed
-![Pixel Data Example](Images\Back.jpg) ![Pixel Data Example](Images\Uncompressed.png) 
+![alt text](image.png)![alt text](image-2.png)
 
 The above images demonstrate the difference between an uncompressed and compressed texture. Notice how compression make pixel data completely unrecognizable.
 
