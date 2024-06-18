@@ -36,7 +36,7 @@ Here's the function to read pixel data from a UTexture2D object. This function w
             UE_LOG(LogTemp, Error, TEXT("Texture is null or PlatformData is missing"));
             OutWidth = 0;
             OutHeight = 0;
-            return; // Return empty array to indicate an error
+            return; 
         }
 
         // Save old texture settings
